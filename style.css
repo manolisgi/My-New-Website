@@ -62,9 +62,10 @@ header{
 
  .img-center{
     display: block;
-    margin: 20px auto;
+    margin: 40px auto;
     height: 300px;
     border: #6b5b95 groove 10px;
+
     
  }
 
@@ -121,4 +122,12 @@ textarea{
                                       rgba(0, 0, 0, 0));
     box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
                 inset -2px -2px 3px rgba(0, 0, 0, .6);
+}
+
+.comments{
+    text-align: center;
+    font-size:25px;
+    font-family:fantasy;
+    font-style:inherit;
+    font-stretch: expanded;
 }
