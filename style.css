@@ -17,16 +17,13 @@ body{
 
 h1{
     font-size: 200%;
-    text-align: center;
     margin: 20px; 
        
 }
 
-main{
-    padding: 60px;
+figure{
+    padding: 20px;
 }
-
-
 #coloured-box{
     background-color: aquamarine;
 }
@@ -34,7 +31,7 @@ main{
 li{
     display: inline;
     float: right;
-    padding: 20px;
+    padding: 10px;
     color: red;
 }
 
@@ -49,4 +46,55 @@ header{
     position:fixed;
     border-bottom: 8px solid #6b5b95;
 
+}
+ footer{
+    position:fixed;
+    bottom: 0px;
+    margin-top:0px ;
+    border-top: 8px solid #6b5b95;
+ }
+
+ .text-center{
+    text-align: center;
+ }
+
+ .img-center{
+    display: block;
+    margin: 20px auto;
+    height: 300px;
+    
+ }
+
+ section{
+    margin-bottom: 0;
+    padding: 20px 20px 20px 20px;
+    border-top: 3px solid #6b5b95 ;
+    background-color: rgb(185, 183, 51) ;
+    width: ;
+ }
+
+ /* center the form on the page */
+form{
+    margin: 0 auto;
+    width: 800px;
+    height: 70px;
+    padding: 10px;
+    border: 5px solid #6b5b95;
+    border-radius: 20px;
+}
+
+label{
+    display: inline-block;
+    width: 70px;
+}
+
+input, textarea {
+   box-sizing: border-box;
+   width: 300px;
+   border: 1px solid #6b5b95;
+}
+
+textarea{
+    vertical-align: top;
+    height: 30px;
 }
