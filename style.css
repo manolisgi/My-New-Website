@@ -64,6 +64,7 @@ header{
     display: block;
     margin: 20px auto;
     height: 300px;
+    border: #6b5b95 groove 10px;
     
  }
 
@@ -72,7 +73,10 @@ header{
     padding: 20px 20px 20px 20px;
     border-top: 3px solid #6b5b95 ;
     background-color: rgb(185, 183, 51) ;
-    width: ;
+    position: fixed;
+    top: 725px;
+    width: 100%;
+
  }
 
  /* center the form on the page */
