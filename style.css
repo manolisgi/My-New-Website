@@ -32,7 +32,8 @@ li{
     display: inline;
     float: right;
     padding: 10px;
-    color: red;
+    color: #6b5b95;
+    font-weight: bold;
 }
 
 header, footer{
@@ -44,6 +45,7 @@ header, footer{
 
 header{
     position:fixed;
+    top: 0px;
     border-bottom: 8px solid #6b5b95;
 
 }
